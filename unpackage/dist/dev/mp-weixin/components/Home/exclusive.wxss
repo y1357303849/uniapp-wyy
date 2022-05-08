@@ -1,0 +1,35 @@
+.exclusiveBox {
+  width: 730rpx;
+  height: 300rpx;
+  margin: 20rpx auto;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.exclusiveBox scroll-view {
+  min-width: 100%;
+  height: 300rpx;
+}
+.exclusiveBox scroll-view .scrollItem {
+  width: 730rpx;
+  height: 300rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+.exclusiveBox scroll-view .scrollItem image {
+  width: 730rpx;
+  height: 250rpx;
+  border-radius: 20rpx;
+}
+.exclusiveBox scroll-view .scrollItem text {
+  width: 730rpx;
+  height: 50rpx;
+  color: white;
+  display: block;
+  overflow: hidden;
+}
+.exclusiveBox ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+

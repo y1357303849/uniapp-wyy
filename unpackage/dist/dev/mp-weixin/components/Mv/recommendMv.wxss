@@ -1,0 +1,40 @@
+.recommendMvBox {
+  width: 750rpx;
+  margin-top: 20rpx;
+  background-color: #5d3131;
+}
+.recommendMvBox .reMvTop {
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 50rpx;
+  color: white;
+}
+.recommendMvBox .reMvs {
+  width: 750rpx;
+  margin-top: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recommendMvBox .reMvs .reMvsItem {
+  width: 365rpx;
+  height: 380rpx;
+  margin: 10rpx auto;
+}
+.recommendMvBox .reMvs .reMvsItem image {
+  width: 355rpx;
+  margin: 5rpx;
+  height: 280rpx;
+  border-radius: 20rpx;
+}
+.recommendMvBox .reMvs .reMvsItem text {
+  width: 100%;
+  height: 80rpx;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+

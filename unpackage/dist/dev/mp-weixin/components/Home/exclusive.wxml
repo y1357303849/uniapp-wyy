@@ -1,0 +1,1 @@
+<view class="exclusiveBox"><scroll-view style="white-space:nowrap;" scroll-x="true"><block wx:for="{{exclusives}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['goExclusive',[index]]]]]}}" class="scrollItem" bindtap="__e"><image src="{{item.sPicUrl}}" mode></image><text>{{item.copywriter}}</text></view></block></scroll-view></view>

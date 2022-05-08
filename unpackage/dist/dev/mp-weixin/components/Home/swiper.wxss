@@ -1,0 +1,12 @@
+.swiperBox {
+  width: 730rpx;
+  height: 100rpx;
+  margin: 20rpx auto;
+  margin-top: 30rpx;
+}
+.swiperBox image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+

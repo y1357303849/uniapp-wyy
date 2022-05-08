@@ -1,0 +1,1 @@
+<view class="globalBox"><view class="topTitle"><text>全球榜</text></view><view class="topLists"><block wx:for="{{globalTopList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['goPlayList',[index]]]]]}}" class="topItem" bindtap="__e"><image src="{{item.coverImgUrl}}" mode></image><text>{{item.name}}</text></view></block></view></view>

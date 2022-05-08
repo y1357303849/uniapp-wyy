@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "MV",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "new-mv": "/components/Mv/newMv",
+    "recommend-mv": "/components/Mv/recommendMv",
+    "mv-top": "/components/Mv/mvTop"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "网易云音乐",
+  "usingComponents": {
+    "swiper": "/components/Home/swiper",
+    "the-play-list": "/components/Home/thePlayList",
+    "exclusive": "/components/Home/exclusive",
+    "new-album": "/components/Home/newAlbum"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/songList/songList",
+    "pages/top/top",
+    "pages/mv/mv",
+    "pages/singer/singer",
+    "pages/indexThePlayList/indexThePlayList",
+    "pages/indexExclusives/indexExclusives",
+    "pages/songListPage/songListPage",
+    "pages/topPage/topPage",
+    "pages/mvPage/mvPage",
+    "pages/singerPage/singerPage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "网易云音乐",
+    "navigationBarBackgroundColor": "#5d3131",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#482522",
+    "backgroundColor": "#5d3131",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/songList/songList",
+        "iconPath": "static/tabbar/singList.png",
+        "selectedIconPath": "static/tabbar/singList1.png",
+        "text": "歌单"
+      },
+      {
+        "pagePath": "pages/top/top",
+        "iconPath": "static/tabbar/top.png",
+        "selectedIconPath": "static/tabbar/top1.png",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/mv/mv",
+        "iconPath": "static/tabbar/mv.png",
+        "selectedIconPath": "static/tabbar/mv1.png",
+        "text": "Mv"
+      },
+      {
+        "pagePath": "pages/singer/singer",
+        "iconPath": "static/tabbar/singer.png",
+        "selectedIconPath": "static/tabbar/singer1.png",
+        "text": "歌手"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

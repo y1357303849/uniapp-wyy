@@ -1,0 +1,1 @@
+<view class="thePlayListBox"><view class="listTitle">推荐歌单</view><scroll-view scroll-x="true"><block wx:for="{{playLists}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['goPlayList',[index]]]]]}}" class="listItem" bindtap="__e"><image src="{{item.picUrl}}" mode></image><text>{{item.name}}</text></view></block></scroll-view></view>

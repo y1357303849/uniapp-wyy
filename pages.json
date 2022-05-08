@@ -1,0 +1,136 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "网易云音乐"
+			}
+		}, {
+			"path": "pages/songList/songList",
+			"style": {
+				"navigationBarTitleText": "歌单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/top/top",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/mv/mv",
+			"style": {
+				"navigationBarTitleText": "MV",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/singer/singer",
+			"style": {
+				"navigationBarTitleText": "歌手",
+				"enablePullDownRefresh": false
+			}
+
+		}
+        ,{
+            "path" : "pages/indexThePlayList/indexThePlayList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "歌单®",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/indexExclusives/indexExclusives",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频®",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/songListPage/songListPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "歌单®",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/topPage/topPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "歌单®",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mvPage/mvPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频®",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/singerPage/singerPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "歌手®",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "网易云音乐",
+		"navigationBarBackgroundColor": "#5d3131",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"black",
+		"selectedColor":"#482522",
+		"backgroundColor":"#5d3131",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/songList/songList",
+				"iconPath": "static/tabbar/singList.png",
+				"selectedIconPath": "static/tabbar/singList1.png",
+				"text": "歌单"
+			},
+			{
+				"pagePath": "pages/top/top",
+				"iconPath": "static/tabbar/top.png",
+				"selectedIconPath": "static/tabbar/top1.png",
+				"text": "排行榜"
+			},
+			{
+				"pagePath": "pages/mv/mv",
+				"iconPath": "static/tabbar/mv.png",
+				"selectedIconPath": "static/tabbar/mv1.png",
+				"text": "Mv"
+			},
+			{
+				"pagePath": "pages/singer/singer",
+				"iconPath": "static/tabbar/singer.png",
+				"selectedIconPath": "static/tabbar/singer1.png",
+				"text": "歌手"
+			}
+		]
+	}
+}

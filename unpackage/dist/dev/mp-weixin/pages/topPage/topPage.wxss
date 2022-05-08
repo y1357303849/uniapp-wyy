@@ -1,0 +1,177 @@
+page {
+  background-color: #541e24;
+}
+.iThePlayListBox {
+  width: 750rpx;
+}
+.iThePlayListBox .playListTop {
+  width: 750rpx;
+  height: 350rpx;
+  margin-top: 20rpx;
+  background-color: #5d3131;
+  color: white;
+  position: relative;
+}
+.iThePlayListBox .playListTop .playListImg {
+  width: 200rpx;
+  height: 220rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.iThePlayListBox .playListTop .playListImg .plImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.iThePlayListBox .playListTop .playListData {
+  width: 500rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.iThePlayListBox .playListTop .playListData .plName {
+  width: 500rpx;
+  height: 100rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.iThePlayListBox .playListTop .playListData .plDataUser {
+  width: 500rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: 10rpx;
+}
+.iThePlayListBox .playListTop .playListData .plDataUser .userImg {
+  width: 70rpx;
+  height: 70rpx;
+  float: left;
+  border-radius: 50%;
+}
+.iThePlayListBox .playListTop .playListData .plDataUser .plUser {
+  float: left;
+  display: block;
+  margin-left: 10rpx;
+}
+.iThePlayListBox .playListTop .playListData .plText {
+  width: 500rpx;
+  height: 30rpx;
+  font-size: 20rpx;
+  margin-top: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.iThePlayListBox .threeButton {
+  width: 650rpx;
+  height: 100rpx;
+  position: relative;
+  top: -50rpx;
+  margin: 0 auto;
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: space-around;
+  background-color: #482522;
+  color: white;
+}
+.iThePlayListBox .threeButton view {
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.iThePlayListBox .threeButton view .iconfont {
+  width: 50rpx;
+  margin-left: 20rpx;
+  font-size: 50rpx;
+  float: left;
+}
+.iThePlayListBox .threeButton view .btnText {
+  width: 130rpx;
+  display: block;
+  float: left;
+  text-align: center;
+}
+.iThePlayListBox .playAll {
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  top: 80rpx;
+  z-index: 9999;
+  background-color: #5d3131;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 89rpx;
+  z-index: 99999;
+}
+.iThePlayListBox .playAll .allBtn {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 50rpx;
+}
+.iThePlayListBox .tpSongsList {
+  width: 750rpx;
+  margin-top: 20rpx;
+}
+.iThePlayListBox .tpSongsList scroll-view {
+  width: 750rpx;
+}
+.iThePlayListBox .tpSongsList scroll-view .tpScrollItem {
+  width: 750rpx;
+  height: 100rpx;
+  margin-top: 10rpx;
+  display: flex;
+  color: white;
+  background-color: #5d3131;
+}
+.iThePlayListBox .tpSongsList scroll-view .tpScrollItem .itemIndex {
+  width: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  left: 100rpx;
+  text-align: center;
+  margin-right: 30rpx;
+}
+.iThePlayListBox .tpSongsList scroll-view .tpScrollItem .songsData {
+  width: 550rpx;
+  height: 100rpx;
+}
+.iThePlayListBox .tpSongsList scroll-view .tpScrollItem .songsData .sdTop {
+  width: 550rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.iThePlayListBox .tpSongsList scroll-view .tpScrollItem .songsData .sdBottom {
+  width: 550rpx;
+  height: 50rpx;
+  font-size: 27rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.iThePlayListBox .tpSongsList scroll-view .tpScrollItem .tpTwoBtn {
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.iThePlayListBox .tpSongsList scroll-view .tpScrollItem .tpTwoBtn .iconfont {
+  float: left;
+  margin-left: 10rpx;
+  font-size: 50rpx;
+}
+

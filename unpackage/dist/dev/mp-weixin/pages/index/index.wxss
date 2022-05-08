@@ -1,0 +1,14 @@
+page {
+  background-color: #541e24;
+}
+page .indexBox .indexSearch input {
+  width: 730rpx;
+  height: 60rpx;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  background-color: #5d3131;
+}
+

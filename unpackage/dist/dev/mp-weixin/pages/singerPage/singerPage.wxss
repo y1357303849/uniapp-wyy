@@ -1,0 +1,426 @@
+page {
+  background-color: #541e24;
+}
+page .singerPageBox {
+  width: 750rpx;
+}
+page .singerPageBox .singerImg {
+  width: 750rpx;
+  height: 500rpx;
+}
+page .singerPageBox .singerImg image {
+  width: 100%;
+  height: 100%;
+}
+page .singerPageBox .singerSketchy {
+  width: 700rpx;
+  height: 300rpx;
+  position: relative;
+  top: -30rpx;
+  margin: 0rpx auto;
+  border-radius: 20rpx;
+  text-align: center;
+  color: white;
+  background-color: #5d3131;
+}
+page .singerPageBox .singerSketchy .singerName {
+  width: 700rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 50rpx;
+  display: block;
+  font-weight: 900;
+}
+page .singerPageBox .singerSketchy .singerFans {
+  width: 700rpx;
+  height: 50rpx;
+  display: block;
+}
+page .singerPageBox .singerSketchy .singerStatus {
+  width: 700rpx;
+  height: 50rpx;
+  display: block;
+}
+page .singerPageBox .singerSketchy .followBtn {
+  width: 700rpx;
+  height: 100rpx;
+}
+page .singerPageBox .singerSketchy .followBtn .fbText {
+  width: 200rpx;
+  height: 50rpx;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  line-height: 50rpx;
+  border: 1rpx solid white;
+  border-radius: 50rpx;
+}
+page .singerPageBox .singerTab {
+  width: 700rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 89rpx;
+  z-index: 99999;
+  background-color: #482522;
+  border-radius: 20rpx;
+  text-align: center;
+  color: white;
+  margin: 0rpx auto;
+  display: flex;
+}
+page .singerPageBox .singerTab .stHome,
+page .singerPageBox .singerTab .stSongs,
+page .singerPageBox .singerTab .stAlbum,
+page .singerPageBox .singerTab .stVideo {
+  width: 200rpx;
+  height: 100rpx;
+}
+page .singerPageBox .singerTab .stActive {
+  color: #5d3131;
+  font-weight: 900;
+  border-bottom: 10rpx solid #5d3131;
+  box-sizing: border-box;
+}
+page .singerPageBox .stHomeBox .sEncyclopedia {
+  width: 700rpx;
+  height: 600rpx;
+  margin: 0rpx auto;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+  background-color: #5d3131;
+}
+page .singerPageBox .stHomeBox .sEncyclopedia .seTitle {
+  width: 700rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  color: white;
+  padding-left: 20rpx;
+  display: block;
+}
+page .singerPageBox .stHomeBox .sEncyclopedia .seName,
+page .singerPageBox .stHomeBox .sEncyclopedia .seStatus,
+page .singerPageBox .stHomeBox .sEncyclopedia .seSex,
+page .singerPageBox .stHomeBox .sEncyclopedia .seBirthday,
+page .singerPageBox .stHomeBox .sEncyclopedia .seCountry,
+page .singerPageBox .stHomeBox .sEncyclopedia .seSchool {
+  width: 700rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: white;
+  padding-left: 20rpx;
+  display: block;
+}
+page .singerPageBox .stHomeBox .sEncyclopedia .seText {
+  width: 700rpx;
+  height: 200rpx;
+  line-height: 50rpx;
+  color: white;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+page .singerPageBox .stHomeBox .resembleSinger {
+  width: 700rpx;
+  height: 350rpx;
+  margin: 0rpx auto;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+  background-color: #5d3131;
+  white-space: nowrap;
+}
+page .singerPageBox .stHomeBox .resembleSinger .rsTitle {
+  width: 700rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  color: white;
+  padding-left: 20rpx;
+  display: block;
+}
+page .singerPageBox .stHomeBox .resembleSinger scroll-view {
+  min-width: 100%;
+  height: 260rpx;
+}
+page .singerPageBox .stHomeBox .resembleSinger scroll-view .rsItem {
+  width: 200rpx;
+  height: 260rpx;
+  margin-left: 20rpx;
+  text-align: center;
+  background-color: #482522;
+  border-radius: 20rpx;
+  display: inline-block;
+  color: white;
+}
+page .singerPageBox .stHomeBox .resembleSinger scroll-view .rsItem .reImg {
+  width: 200rpx;
+  height: 100rpx;
+}
+page .singerPageBox .stHomeBox .resembleSinger scroll-view .rsItem .reImg .rsImgs {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 50%;
+}
+page .singerPageBox .stHomeBox .resembleSinger scroll-view .rsItem .rsName {
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+page .singerPageBox .stHomeBox .resembleSinger scroll-view .rsItem .rsFans {
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+page .singerPageBox .stHomeBox .resembleSinger scroll-view .rsItem .rsFollow {
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+page .singerPageBox .stHomeBox .resembleSinger scroll-view .rsItem .rsFollow .rfText {
+  width: 150rpx;
+  height: 50rpx;
+  display: block;
+  margin: 0 auto;
+  border: 1rpx solid white;
+  border-radius: 50rpx;
+}
+page .singerPageBox .stHomeBox .resembleSinger ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+page .singerPageBox .stSongsBox {
+  width: 750rpx;
+}
+page .singerPageBox .stSongsBox .ssPlayAll {
+  width: 750rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 20rpx;
+  background-color: #5d3131;
+}
+page .singerPageBox .stSongsBox .ssPlayAll .splayBtn {
+  width: 250rpx;
+  height: 80rpx;
+  color: white;
+  text-align: center;
+  font-size: 40rpx;
+}
+page .singerPageBox .stSongsBox .fhotSongs {
+  width: 750rpx;
+  margin-top: 10rpx;
+}
+page .singerPageBox .stSongsBox .fhotSongs scroll-view {
+  width: 750rpx;
+}
+page .singerPageBox .stSongsBox .fhotSongs scroll-view .ssItem {
+  width: 750rpx;
+  height: 100rpx;
+  margin-top: 10rpx;
+  background-color: #5d3131;
+  color: white;
+}
+page .singerPageBox .stSongsBox .fhotSongs scroll-view .ssItem .siIndex {
+  width: 50rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  float: left;
+}
+page .singerPageBox .stSongsBox .fhotSongs scroll-view .ssItem .siSongName {
+  width: 500rpx;
+  height: 100rpx;
+  margin-left: 20rpx;
+  line-height: 50rpx;
+  float: left;
+}
+page .singerPageBox .stSongsBox .fhotSongs scroll-view .ssItem .siSongName .sSongName {
+  width: 500rpx;
+  height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+page .singerPageBox .stSongsBox .fhotSongs scroll-view .ssItem .siSongName .sSingerName {
+  width: 500rpx;
+  height: 50rpx;
+  font-size: 27rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+page .singerPageBox .stSongsBox .fhotSongs scroll-view .ssItem .tpTwoBtn {
+  width: 150rpx;
+  height: 100rpx;
+  float: left;
+  line-height: 100rpx;
+  text-align: center;
+}
+page .singerPageBox .stSongsBox .fhotSongs scroll-view .ssItem .tpTwoBtn .iconfont {
+  float: left;
+  margin-left: 10rpx;
+  font-size: 50rpx;
+}
+page .singerPageBox .stAlbumBox {
+  width: 750rpx;
+}
+page .singerPageBox .stAlbumBox .saTime {
+  width: 750rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 20rpx;
+  background-color: #5d3131;
+}
+page .singerPageBox .stAlbumBox .saTime .stimeText {
+  width: 250rpx;
+  height: 80rpx;
+  color: white;
+  text-align: center;
+  font-size: 30rpx;
+}
+page .singerPageBox .stAlbumBox .saAlbums {
+  width: 750rpx;
+  margin-top: 10rpx;
+}
+page .singerPageBox .stAlbumBox .saAlbums scroll-view {
+  width: 750rpx;
+}
+page .singerPageBox .stAlbumBox .saAlbums scroll-view .saItem {
+  width: 750rpx;
+  height: 150rpx;
+  margin-top: 10rpx;
+  background-color: #5d3131;
+}
+page .singerPageBox .stAlbumBox .saAlbums scroll-view .saItem .saImg {
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 20rpx;
+  border-radius: 20rpx;
+  float: left;
+}
+page .singerPageBox .stAlbumBox .saAlbums scroll-view .saItem .saAlbumName {
+  width: 560rpx;
+  height: 150rpx;
+  margin-left: 20rpx;
+  float: left;
+  color: white;
+}
+page .singerPageBox .stAlbumBox .saAlbums scroll-view .saItem .saAlbumName .saName {
+  width: 560rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+page .singerPageBox .stAlbumBox .saAlbums scroll-view .saItem .saAlbumName .saDate {
+  width: 560rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+page .singerPageBox .stVideoBox {
+  width: 750rpx;
+}
+page .singerPageBox .stVideoBox .svTwoBtn {
+  width: 750rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 20rpx;
+  color: white;
+  text-align: center;
+  background-color: #5d3131;
+}
+page .singerPageBox .stVideoBox .svTwoBtn .stOne {
+  width: 150rpx;
+  height: 80rpx;
+  display: block;
+  float: left;
+}
+page .singerPageBox .stVideoBox .svTwoBtn .stTwo {
+  width: 150rpx;
+  height: 80rpx;
+  display: block;
+  float: left;
+}
+page .singerPageBox .stVideoBox .svTwoBtn .stActive {
+  background-color: #482522;
+  border-radius: 50rpx;
+}
+page .singerPageBox .stVideoBox .svVideos {
+  width: 750rpx;
+  margin-top: 10rpx;
+}
+page .singerPageBox .stVideoBox .svVideos scroll-view {
+  width: 750rpx;
+}
+page .singerPageBox .stVideoBox .svVideos scroll-view .svItem {
+  width: 750rpx;
+  height: 200rpx;
+  background-color: #5d3131;
+  margin-top: 10rpx;
+}
+page .singerPageBox .stVideoBox .svVideos scroll-view .svItem .siImg {
+  width: 365rpx;
+  height: 200rpx;
+  float: left;
+  border-radius: 20rpx;
+}
+page .singerPageBox .stVideoBox .svVideos scroll-view .svItem .siSongtext {
+  width: 365rpx;
+  height: 200rpx;
+  float: left;
+  margin-left: 20rpx;
+  color: white;
+}
+page .singerPageBox .stVideoBox .svVideos scroll-view .svItem .siSongtext .ssName {
+  width: 365rpx;
+  height: 100rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+page .singerPageBox .stVideoBox .svVideos scroll-view .svItem .siSongtext .ssDate,
+page .singerPageBox .stVideoBox .svVideos scroll-view .svItem .siSongtext .ssPlayNum {
+  width: 365rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
